@@ -10,6 +10,7 @@ body{
 .login{
 	background-color: rgba(0, 255, 181, 0.67);
 	min-height: 500px;
+	margin-top: 50px;
 	max-width: 800px;
 }
 label{

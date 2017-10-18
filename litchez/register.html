@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>YUMMY RECEIPTS</title>
+	<title>REGISTER</title>
 	<meta charset="utf-8">
 	<meta content="viewport" width="device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -14,14 +14,21 @@
 <center>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 login">
-				<h1 id="login">LOGIN</h1>
-				<form name="login_form">
+			<div class="col-sm-12">
+				<form name="register_form" class="login">
+					<h1>REGISTER</h1>
+					<br><br>
+					<label>First name:</label>
+					<input type="text" name="firstname" class="form-control" /><br><br>
+					<label>Last name:</label><br>
+					<input type="text" name="lastname" class="form-control" /><br><br>
 					<label>Username:</label><br>
 					<input type="text" name="username" class="form-control" /><br><br>
 					<label>Password:</label><br>
 					<input type="password" name="password" class="form-control" /><br><br>
-					<input type="button" name="login" value="Login" class="form-control btn btn-primary pull-right">
+					<label>Confirm Password:</label>
+					<input type="password" name="password2" class="form-control" /><br><br>
+					<input type="button" name="register" class="form-control btn btn-success" value="Register" />
 				</form>
 			</div>
 		</div>

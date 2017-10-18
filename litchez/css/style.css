@@ -1,0 +1,23 @@
+body{
+	background-image: url(../images/a.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#login{
+	color:#000;
+	font-weight: bold;
+}
+.login{
+	background-color: rgba(0, 255, 181, 0.67);
+	min-height: 500px;
+	max-width: 800px;
+}
+label{
+	color: #fff;
+}
+input[type=button]{
+	width:20% !important;
+}
+.form-control{
+	width: 80% !important;
+}
